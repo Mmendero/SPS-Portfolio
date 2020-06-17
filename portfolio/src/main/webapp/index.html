@@ -2,17 +2,50 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <img src="/images/avatar.jpg" class="avatar">
+    <title>Matthew Mendero</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
+
   <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+    <div id="greeting">
+      <h1 id="name">Matthew Mendero</h1>
+      <p id="greeting-text"> Welcome to my page!</p>
     </div>
+
+    <div id="whitespace"> </div>
+
+    <div id="content">
+      <h2 id="name">About Me</h2>
+        <div class="flexbox">
+            <p id="maintext"> 
+            Hi I'm Matt! I'm from Garfield, New Jersey. Currently, I am a Sophomore at Montclair State University studying Computer Science.<br />
+            I'm half Filippino from my mother's side and half Haitian from my father's side.<br />
+            My Interest for technology began with my passion for gaming, one thing led to another and I found myself coding for fun.<br />
+            Click the button to scroll through some things that interest me!<br />
+            </p>
+        </div>
+    </div>
+
+
+    <div id="content">
+        <div class="flexbox">
+            <button onclick="addRandomGreeting()">Hello</button>
+            <div id="greeting-container"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="content">
+            <h2 id="name">Follow Me!</h2>
+        </div>
+        <ul class="social-icons">
+            <li><a href="https://github.com/Mmendero" target="_blank"><img src='/images/Github.png' /></a></li>
+            <li><a href="https://twitter.com/m1ett" target="_blank"><img src='/images/Twitter.png' /></a></li>
+            <li><a href="https://www.linkedin.com/in/matthew-mendero-atis-8a1b9314b/" target="_blank"><img src='/images/Linkedin.png' /></a></li>
+        </ul>
+    </footer>
   </body>
+  
 </html>
